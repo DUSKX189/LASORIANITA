@@ -85,8 +85,8 @@ cursor: grabbing;
     <header class="fixed z-50 bg-zinc-50/90 w-full border-stone-200 border-b top-0 backdrop-blur-md">
         <div class="flex h-20 max-w-7xl mr-auto ml-auto pr-6 pl-6 items-center justify-between">
             <a href="#" class="flex items-center gap-2 select-none cursor-pointer hover:opacity-80 transition-opacity">
-                <span class="text-soria-red bg-center text-3xl font-sans opacity-0 w-44 h-20 bg-[url(https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/a6141a0b-aadf-4ba5-81b4-9872a51f82da_800w.png)] bg-cover pt-2 scale-100"></span>
-                <span class="uppercase text-soria-red -translate-x-3 text-xs italic tracking-widest font-math text-left mt-2">Est. 1955</span>
+                <span class="text-soria-red bg-center text-3xl font-script w-44 h-24 bg-[url(https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/a6141a0b-aadf-4ba5-81b4-9872a51f82da_320w.png)] bg-cover mt-4 mb-4 pt-2"></span>
+                <span class="font-math text-xs uppercase tracking-widest text-soria-red mt-2">Est. 1955</span>
             </a>
 
             <nav class="hidden md:flex items-center gap-8">
@@ -112,7 +112,7 @@ cursor: grabbing;
         <div class="[background-size:16px_16px] opacity-10 absolute top-0 right-0 bottom-0 left-0"></div>
         
         <div class="z-10 animate-fade-in-up flex flex-col items-center">
-            <h1 class="leading-none md:text-9xl bg-center text-7xl text-white/0 font-script bg-[url(https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/a55e2f1e-d1a0-4776-834a-7c02fc768f4d_1600w.png)] bg-cover mb-2 drop-shadow-sm scale-110">La Sorianita</h1>
+            <h1 class="leading-none md:text-9xl bg-center text-7xl text-white/0 font-script bg-[url(https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/a55e2f1e-d1a0-4776-834a-7c02fc768f4d_1600w.png)] bg-cover mb-2 drop-shadow-sm">La Sorianita</h1>
             
             <div class="w-full flex justify-center items-center gap-4 mb-12 opacity-80">
                 <div class="h-px w-16 bg-white/40"></div>
@@ -190,7 +190,7 @@ cursor: grabbing;
         <!-- Slider Wrapper -->
         <div id="slider-container" class="relative w-full active:cursor-grabbing overflow-hidden touch-none">
             <!-- Track (JS controlled) -->
-            <div class="flex will-change-transform w-max pr-2 pl-2 gap-x-8 gap-y-8" style="transform: translateX(0px)" id="slider-track">
+            <div id="slider-track" class="flex w-max gap-8 px-2 will-change-transform" style="transform: translateX(0px);">
                 
                 <!-- ITEMS GROUP 1 (The 8 Unique Products) -->
                 
@@ -688,7 +688,7 @@ cursor: grabbing;
     </div>
 
     <!-- Location & Contact - Added ID for navigation -->
-    <section class="scroll-mt-24 text-white pt-24 pb-24 relative" id="encuentranos">
+    <section id="encuentranos" class="bg-soria-red text-white py-24 relative scroll-mt-24">
         <div class="max-w-7xl mx-auto px-6">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 
@@ -738,7 +738,7 @@ cursor: grabbing;
             <div class="flex flex-col md:flex-row justify-between items-end">
                 
                 <div class="mb-12 md:mb-0">
-                    <h3 class="leading-tight text-4xl font-serif mr-3333333 mb-6">Endulzando tu <br> día desde</h3>
+                    <h3 class="font-serif text-4xl mb-6 leading-tight">Endulzando tu <br> día desde</h3>
                     <div class="space-y-4 font-sans text-sm text-white/60">
                         <div class="flex gap-8">
                             <div>
@@ -763,7 +763,7 @@ cursor: grabbing;
 
             </div>
             
-            <div class="flex text-xs text-white/40 font-sans border-white/10 border-t mt-16 pt-8 items-center justify-between">
+            <div class="mt-16 pt-8 border-t border-white/10 flex justify-between items-center text-xs text-white/40 font-sans">
                 <p>© 2024 La Sorianita.</p>
                 <p>Artesanos desde 1955.</p>
             </div>
